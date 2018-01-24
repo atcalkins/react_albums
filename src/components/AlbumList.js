@@ -21,7 +21,6 @@ class AlbumList extends Component {
   }
 
   render() {
-    console.log(this.state); // to check to make sure the state is working correctly
     return (
       <ScrollView>
         {this.renderAlbums()}
